@@ -1,0 +1,32 @@
+# ---- DO NOT UPLOAD DATA ----
+data/
+*.csv
+
+# If you want to upload metrics_summary.csv only, then:
+# !results/metrics_summary.csv
+# and remove "*.csv" above.
+
+# ---- outputs ----
+results/
+*.png
+
+# ---- python ----
+__pycache__/
+*.pyc
+*.pkl
+*.joblib
+
+# ---- environments ----
+.venv/
+venv/
+.env
+
+# ---- IDE ----
+.vscode/
+.idea/
+.DS_Store
+
+# ---- accidental files ----
+self.corr_threshold*
+self.missing_threshold*
+preprocessor*
